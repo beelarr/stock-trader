@@ -2,8 +2,9 @@
     <div id="app">
       <app-header></app-header>
       <div class="row">
-        <div class="col-xs-12"></div>
-        <router-view>  </router-view>
+        <div class="col-xs-12">
+            <router-view>  </router-view>
+        </div>
       </div>
     </div>
 </template>
